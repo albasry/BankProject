@@ -17,7 +17,7 @@ Upon running the project, a login screen will appear. Use one of the provided us
 - Username: User1, password: 1111
 - Username: User2, password: 2222
 ---
-![Main Screen](MainScreen.png 'Main Screen')
+![Main Screen](img\MainScreen.png 'Main Screen')
 ---
 ## What can this project do?
 1. Show Clients List
