@@ -1,0 +1,12 @@
+Jeff#//#Bezos#//#jeff@gmail.com#//#001555444#//#AF10#//#1111#//#15500.000000
+Warren#//#Buffett#//#warren@gmail.com#//#001555446#//#AF11#//#2222#//#2500.000000
+Tim#//#Berners-Lee#//#tim-lee@bank.com#//#001555446#//#AF12#//#3333#//#8750.000000
+Elon#//#Musk#//#Elon@bank.com#//#001555854#//#AF14#//#5555#//#12000.000000
+Tim#//#Cook#//#tim@bank.com#//#001555745#//#AF13#//#4444#//#3000.000000
+Bill#//#Gates#//#bill@bank.com#//#001555326#//#AF15#//#6666#//#45000.000000
+Satya#//#Nadella#//#satya@gmail.com#//#001555225#//#AF16#//#7777#//#75250.000000
+Linus#//#Torvalds#//#linus@bank.com#//#001555999#//#AF17#//#8888#//#95000.000000
+Larry#//#Page#//#larry@bank.com#//#001555600#//#AF18#//#9999#//#57200.000000
+James#//#Gosling#//#james@bank.com#//#001555119#//#AF19#//#1010#//#8505.000000
+Guido#//#Van-Rossum#//#guido@bank.com#//#001555995#//#AF20#//#1212#//#34000.000000
+George#//#Cloney#//#George@gmail.com#//#015554220#//#AF21#//#2323#//#12470.000000
