@@ -4,9 +4,10 @@
 #include <vector>
 #include <string>
 #include <fstream>
-#include "clsString.h"
 #include "clsPerson.h"
-#include "clsDate.h"
+// Note: Put the correct path to find the file.
+#include "C:\Users\Public\BankProject\lib\clsString.h"
+#include "C:\Users\Public\BankProject\lib\clsDate.h"
 using namespace std;
 
 class clsBankClient : public clsPerson

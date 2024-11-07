@@ -2,9 +2,9 @@
 
 #include <iostream>
 #include <iomanip>
-#include "clsScreen.h"
 // Note: Put the correct path to find the file.
-#include "C:\Users\Public\BankProject\lib\clsBankClient.h"
+#include "C:\Users\Public\BankProject\ui\clsScreen.h"
+#include "C:\Users\Public\BankProject\core\clsBankClient.h"
 using namespace std;
 
 class clsClientListScreen : protected clsScreen

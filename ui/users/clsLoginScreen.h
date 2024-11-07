@@ -2,11 +2,11 @@
 
 #include <iostream>
 #include <iomanip>
-#include "clsScreen.h"
-#include "clsMainScreen.h"
-#include "Global.h"
 // Note: Put the correct path to find the file.
-#include "C:\Users\Public\BankProject\lib\clsUser.h"
+#include "C:\Users\Public\BankProject\ui\clsMainScreen.h"
+#include "C:\Users\Public\BankProject\ui\clsScreen.h"
+#include "C:\Users\Public\BankProject\core\Global.h"
+#include "C:\Users\Public\BankProject\core\clsUser.h"
 
 class clsLoginScreen : protected clsScreen
 {

@@ -4,10 +4,11 @@
 #include <string>
 #include <vector>
 #include <fstream>
-#include "clsDate.h"
 #include "clsPerson.h"
-#include "clsString.h"
-#include "clsUtil.h"
+// Note: Put the correct path to find the file.
+#include "C:\Users\Public\BankProject\lib\clsString.h"
+#include "C:\Users\Public\BankProject\lib\clsDate.h"
+#include "C:\Users\Public\BankProject\lib\clsUtil.h"
 using namespace std;
 
 class clsUser : public clsPerson

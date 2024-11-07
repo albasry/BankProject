@@ -3,9 +3,9 @@
 #include <iostream>
 #include <iomanip>
 #include <fstream>
-#include "clsScreen.h"
 // Note: Put the correct path to find the file.
-#include "C:\Users\Public\BankProject\lib\clsBankClient.h"
+#include "C:\Users\Public\BankProject\ui\clsScreen.h"
+#include "C:\Users\Public\BankProject\core\clsBankClient.h"
 
 class clsTransferLogScreen : protected clsScreen
 {

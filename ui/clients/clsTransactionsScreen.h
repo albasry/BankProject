@@ -2,13 +2,13 @@
 
 #include <iostream>
 #include <iomanip>
-#include "clsScreen.h"
 #include "clsDepositScreen.h"
 #include "clsWithdrawScreen.h"
 #include "clsTotalBalancesScreen.h"
 #include "clsTransferScreen.h"
 #include "clsTransferLogScreen.h"
 // Note: Put the correct path to find the file.
+#include "C:\Users\Public\BankProject\ui\clsScreen.h"
 #include "C:\Users\Public\BankProject\lib\clsInputValidate.h"
 using namespace std;
 

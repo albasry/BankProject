@@ -1,12 +1,12 @@
 #pragma once
 
 #include <iostream>
-#include "clsScreen.h"
 // Note: Put the correct path to find the file.
-#include "C:\Users\Public\BankProject\lib\clsUser.h"
+#include "C:\Users\Public\BankProject\ui\clsScreen.h"
+#include "C:\Users\Public\BankProject\core\clsUser.h"
 #include "C:\Users\Public\BankProject\lib\clsInputValidate.h"
 
-class clsDeleteUserScreen : protected clsScreen
+class clsFindUserScreen : protected clsScreen
 {
 private:
 	static void _PrintUser(clsUser User)
@@ -25,40 +25,32 @@ private:
 	}
 
 public:
-    static void ShowDeleteUserScreen()
+    static void ShowFindUserScreen()
     {
-        _DrawScreenHeader("\tDelete User Screen");
+        _DrawScreenHeader("\t  Find User Screen");
 
-        string UserName = "";
+        string UserName;
         cout << "\nPlease Enter UserName: ";
         UserName = clsInputValidate::ReadString();
         while (!clsUser::IsUserExist(UserName))
         {
             cout << "\nUser is not found!" << endl;
-            cout << "Choose another one: ";
+            cout << "choose another one: ";
             UserName = clsInputValidate::ReadString();
         }
 
         clsUser User1 = clsUser::Find(UserName);
-        _PrintUser(User1);
 
-        cout << "\nAre you sure you want to delete this User? [y/n]: ";
-
-        char Answer = 'n';
-        cin >> Answer;
-
-        if (Answer == 'y' || Answer == 'Y')
+        if (!User1.IsEmpty())
         {
-            if (User1.Delete())
-            {
-                cout << "\nUser Deleted Successfully :)\n";
-                _PrintUser(User1);
-            }
-            else
-            {
-                cout << "\nError User Was not Deleted!\n";
-            }
+            cout << "\nUser Found :)\n";
         }
+        else
+        {
+            cout << "\nUser Was not Found :(\n";
+        }
+
+        _PrintUser(User1);
     }
 
 };
