@@ -21,6 +21,13 @@ Upon running the project, a login screen will appear. Use one of the provided us
 - Username: User2, password: 2222
 ---
 ![Main Screen](https://github.com/albasry/BankProject/blob/main/img/MainScreen.png 'Main Screen')
+**The main screen of v1.0**
+
+---
+---
+![Main Screen](img/MainScreen2.jpg 'Main Screen')
+**The main screen of v1.1**
+
 ---
 ## What can this project do?
 1. Show Clients List
